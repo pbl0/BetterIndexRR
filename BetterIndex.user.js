@@ -1,30 +1,23 @@
 // ==UserScript==
 // @name        BetterIndex
 // @namespace   https://pablobls.tech/
-// @match       *://m.rivalregions.com/
-// @grant       none
+// @match       *://*rivalregions.com/
+// @grant       GM_getValue
+// @grant       GM_setValue
 // @version     1.0
 // @author      Pablo
-// @description Adds link to index page and improves it by filtering useless info, also highlights your regions
+// @description 9/28/2020, 9:47:49 PM
+// @require https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // ==/UserScript==
 
-// Modify this array with your regions ID
-const myRegions = [
-	"15202", // Argel
-	"4525", // Swansea
-	"4506", // North West England
-	"15201", // Argelia
-	"802", // Georgia
-	"810", // Tbilisi
-	"808", // Adjara
-	"2003", // Haifa
-	"13602", // Lagos
-	"4305", // Andalucia
-	"4518", // Gibraltar
-    "200030", // MR 30
-	"200059", // MR 59
-	"200002", // MR 02
-];
+
+var myRegions = GM_getValue('myregions');
+
+if (!myRegions){
+	GM_setValue('myregions', [])
+	myRegions = [];
+}
+console.log(myRegions);
 
 $(document).ready(function () {
 	console.log(c());
