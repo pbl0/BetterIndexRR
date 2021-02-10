@@ -7,6 +7,7 @@
 // @version     1.0.1
 // @author      Pablo
 // @description 9/28/2020, 9:47:49 PM
+// @downloadURL https://github.com/pbl0/BetterIndexRR/raw/main/BetterIndex.user.js
 // @require https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // ==/UserScript==
 
