@@ -4,7 +4,7 @@
 // @match       *://*rivalregions.com/
 // @grant       GM_getValue
 // @grant       GM_setValue
-// @version     1.0
+// @version     1.0.1
 // @author      Pablo
 // @description 9/28/2020, 9:47:49 PM
 // @require https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
