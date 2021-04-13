@@ -1,9 +1,12 @@
 # BetterIndexRR
 An user script for Rival Regions game that filters out regions in the index ranking page. It will leave only the regions that show an index change, so you don't waste your precious time scrolling.
 
+
+<img class="image" src="" alt="img" />
+
 This script works both in PC and Mobile.
 
-- **Mobile**: It will also add the missing link to the index ranking page when you click in the number of buildings.
+- **Mobile**: It will also add the missing link to the index ranking page when you click on the index number.
 
 ### Add your Regions
 
@@ -18,8 +21,8 @@ Example: ``` ["15202", "4305", "4518"] ```
 - Check out my [RR script collection][scripts].
 
 
-[guide]: https://github.com/pbl0/rr-scripts/blob/main/guide.md
+[guide]: https://rr-tools/guide
 
-[scripts]: https://github.com/pbl0/rr-scripts/blob/main/README.md
+[scripts]: https://rr-tools/mods
 
 [raw]: https://github.com/pbl0/BetterIndexRR/raw/main/BetterIndex.user.js
