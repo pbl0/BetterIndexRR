@@ -2,7 +2,7 @@
 An user script for Rival Regions game that filters out regions in the index ranking page. It will leave only the regions that show an index change, so you don't waste your precious time scrolling.
 
 
-<img class="image" src="" alt="img" />
+<img class="image" src="https://raw.githubusercontent.com/pbl0/BetterIndexRR/main/screen.png" alt="img" />
 
 This script works both in PC and Mobile.
 
