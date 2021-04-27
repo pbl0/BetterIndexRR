@@ -8,13 +8,13 @@ This script works both in PC and Mobile.
 
 - **Mobile**: It will also add the missing link to the index ranking page when you click on the index number.
 
-### Add your Regions
+## Add your Regions
 
 You can also add your own regions by adding their id to the `myregions` value. You can find any region id at the end of it's url.
 
 Example: ``` ["15202", "4305", "4518"] ```
 
-### Install
+## Install
 
 - Read [how to install][guide] user scripts for RR.
 - Click [here][raw] to install.
